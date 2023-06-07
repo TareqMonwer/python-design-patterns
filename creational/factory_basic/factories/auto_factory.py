@@ -1,10 +1,10 @@
 from inspect import getmembers, isclass, isabstract
 
-import factory
+from creational import factory_basic as factory
 
 
 class AutoFactory:
-    autos = {}    # Key: Car model name, Value: class for the Car
+    autos = {}  # Key: Car model name, Value: class for the Car
 
     def __init__(self):
         self.load_autos()
@@ -13,7 +13,7 @@ class AutoFactory:
         classes = getmembers(factory,
                              lambda m: isclass(m) and not isabstract(m))
         for name, _type in classes:
-            if isclass(_type) and issubclass(_type, factory.abs_autos.AbsAuto):
+            if isclass(_type) and issubclass(_type, factory.AbsAuto):
                 self.autos.update([[name, _type]])
 
     def create_instance(self, car_name):

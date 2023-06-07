@@ -1,4 +1,4 @@
-from abs_factory import loader
+from creational.abs_factory import loader
 
 factory_name = 'modern_furniture'
 

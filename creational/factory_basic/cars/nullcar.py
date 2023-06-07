@@ -1,5 +1,5 @@
 # Creational Pattern
-from .abs_autos import AbsAuto
+from creational.factory_basic.cars.abs_autos import AbsAuto
 
 
 class NullCar(AbsAuto):

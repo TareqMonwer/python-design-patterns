@@ -1,4 +1,4 @@
-from auto_factory import AutoFactory
+from creational.factory_basic.factories.auto_factory import AutoFactory
 
 factory = AutoFactory()
 
