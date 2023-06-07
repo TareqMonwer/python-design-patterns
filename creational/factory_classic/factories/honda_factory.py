@@ -1,5 +1,5 @@
 from .abs_factory import AbsFactory
-from factory_classic.autos import Honda
+from creational.factory_classic.autos import Honda
 
 
 class HondaFactory(AbsFactory):

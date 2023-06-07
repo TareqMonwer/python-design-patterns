@@ -1,5 +1,5 @@
 # Creational Pattern
-from factory.abs_autos import AbsAuto
+from creational.factory_classic.autos.abs_autos import AbsAuto
 
 
 class Honda(AbsAuto):

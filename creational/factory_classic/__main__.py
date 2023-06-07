@@ -1,4 +1,4 @@
-from factory_classic import loader
+from creational.factory_classic import loader
 
 for factory_name in ['chevy_factory', 'deepsahara_factory', 'honda_factory', 'tesla_factory', 'ford_factory']:
     factory = loader.load_factory(factory_name)

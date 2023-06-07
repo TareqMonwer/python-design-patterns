@@ -1,8 +1,8 @@
 import abc
 
-from abs_factory.furnitures.abs_chair import AbsChair
-from abs_factory.furnitures.abs_coffee_table import AbsCoffeeTable
-from abs_factory.furnitures.abs_sofa import AbsSofa
+from creational.abs_factory.furnitures.abs_chair import AbsChair
+from creational.abs_factory.furnitures.abs_coffee_table import AbsCoffeeTable
+from creational.abs_factory.furnitures.abs_sofa import AbsSofa
 
 
 class AbsFurnitureFactory(abc.ABC):

@@ -1,4 +1,4 @@
-from abs_factory.furnitures.abs_sofa import AbsSofa
+from creational.abs_factory.furnitures.abs_sofa import AbsSofa
 
 
 class ArtDecoSofa(AbsSofa):

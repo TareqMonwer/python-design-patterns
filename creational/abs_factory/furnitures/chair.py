@@ -1,4 +1,4 @@
-from abs_factory.furnitures.abs_chair import AbsChair
+from creational.abs_factory.furnitures.abs_chair import AbsChair
 
 
 class ArtDecoChair(AbsChair):
