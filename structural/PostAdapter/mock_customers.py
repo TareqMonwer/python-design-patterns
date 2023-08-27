@@ -1,4 +1,4 @@
-from Behavioral.PostAdapter.customer_adapter import CustomerAdapter
+from structural.PostAdapter.customer_adapter import CustomerAdapter
 from customer import Customer
 
 

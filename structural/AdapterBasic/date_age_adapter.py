@@ -1,6 +1,6 @@
 import datetime
 
-from Behavioral.AdapterBasic.age_calculator import AgeCalculator
+from structural.AdapterBasic.age_calculator import AgeCalculator
 
 
 class DateAgeAdapter:

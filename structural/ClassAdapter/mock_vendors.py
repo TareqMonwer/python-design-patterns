@@ -1,4 +1,4 @@
-from Behavioral.PostAdapter.vendor_adapter import VendorAdapter
+from structural.PostAdapter.vendor_adapter import VendorAdapter
 from vendor import Vendor
 
 

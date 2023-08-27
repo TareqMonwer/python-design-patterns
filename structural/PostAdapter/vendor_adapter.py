@@ -1,4 +1,4 @@
-from Behavioral.PostAdapter.abs_adapter import AbsAdapter
+from structural.PostAdapter.abs_adapter import AbsAdapter
 
 
 class VendorAdapter(AbsAdapter):
